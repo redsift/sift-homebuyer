@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%">
+
+<head>
+  <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Taxi Sift</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- Mobile Specific Metas –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <!-- CSS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="dist/css/style.min.css">
+</head>
+
+<body id="home">
+  <rs-hero header="Homebuyer Sift" bg-class="-bg-homebuyer-hero -effect-darken" scroll-target="#scroll-target" sticky-header=".content">
+    <p class="fade-in delay">This month's average house price is</p>
+    <code id="monthtotal">&hellip;</code>
+  </rs-hero>
+  <a id="help" class="help" href="#">
+    <img src="assets/help.svg" style="position: fixed; top: 30px; right: 20px; z-index: 800;" />
+  </a>
+  <div class="content" id="scroll-target">
+    <div class="blocks">
+      <div id="one" class="block b--one">
+        <div class="sectiontitle">Stats</div>
+        <div id="statssubtitle" class="sectionsubtitle">this month</div>
+        <div id="stats" class="fb cards stats">
+          <div class="stat top">
+            <code id="average" class="statnum">&hellip;</code>
+            <div class="statdesc">avg asking price</div>
+          </div>
+          <div class="stat top last">
+            <code id="max" class="statnum">&hellip;</code>
+            <div class="statdesc">max value</div>
+          </div>
+          <div class="stat">
+            <code id="number" class="statnum">&hellip;</code>
+            <div class="statdesc">new properties</div>
+          </div>
+          <div class="stat last">
+            <code id="min" class="statnum">&hellip;</code>
+            <div class="statdesc">min value</div>
+          </div>
+        </div>
+      </div>
+      <div id="two" class="block b--two">
+        <div class="sectiontitle">Average</div>
+        <div class="sectionsubtitle">asking price (£'000)</div>
+        <div id="monthlymean"></div>
+      </div>
+      <div id="three" class="block b--three">
+        <div class="sectiontitle">Distribution</div>
+        <div class="sectionsubtitle">per price band</div>
+        <div id="monthdistro"></div>
+      </div>
+      <div id="four" class="block b--four">
+        <div class="sectiontitle">Volume</div>
+        <div class="sectionsubtitle">of new and reduced</div>
+        <div id="monthlyvolume"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Other Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.min.js" charset="utf-8"></script>
+
+  <!-- App -->
+  <script src="dist/js/view.umd-es2015.min.js"></script>
+</body>
+
+</html>

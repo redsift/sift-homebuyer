@@ -1,0 +1,11 @@
+{
+  "name": "sift-homebuyer",
+  "display-name": "Sift Homebuyer",
+  "description": "Property alert personalised price index",
+  "author": "Randal Pinto",
+  "version": "1.0.0",
+  "#": "Please use 'redsift npm' instead of system 'npm' ",
+  "dependencies": {
+    "moment": "^2.15.1"
+  }
+}

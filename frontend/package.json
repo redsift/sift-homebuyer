@@ -1,0 +1,35 @@
+{
+  "name": "sift-homebuyer",
+  "version": "1.0.0",
+  "description": "## Development setup",
+  "main": "bundle.config.js",
+  "scripts": {
+    "start": "redsift run . >/dev/null 2>&1 || { echo '\nPlease install the Redsift SDK to run the Sift locally. See https://docs.redsift.io/docs/sdk-installation on how to do that.\n\n'; }",
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redsift/sift-homebuyer.git"
+  },
+  "author": "Randal Pinto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Redsift/sift-homebuyer/issues"
+  },
+  "homepage": "https://github.com/Redsift/sift-homebuyer#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "moment": "^2.15.1",
+    "d3-selection": "^1.0.2",
+    "d3-transition": "^1.0.2",
+    "@redsift/ui-rs-core": "^0.8.3",
+    "@redsift/ui-rs-hero": "^0.3.1",
+    "@redsift/d3-rs-lines": "^0.3.1",
+    "@redsift/d3-rs-bars": "^0.2.0",
+    "@redsift/d3-rs-theme": "^0.4.2",
+    "@redsift/sift-sdk-web": "^0.6.1",
+    "@redsift/redsift-bundler": "^0.5.3",
+    "tingle.js": "^0.8.1"
+  }
+}
