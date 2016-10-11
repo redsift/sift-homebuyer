@@ -1,7 +1,7 @@
 # Homebuyer Sift
 ### Your personalized property price index
 
-[<img src="http://static.redsift.io/assets/icons/deploy.svg">](https://dashboard.redsift.cloud/catalogue)
+[<img src="http://static.redsift.io/assets/icons/run.svg">](https://dashboard.redsift.cloud/catalogue)
 
 Transform your Zoopla and Rightmove email alerts into your own personalized property price index.
 
