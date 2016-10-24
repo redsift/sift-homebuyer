@@ -1,8 +1,7 @@
 {
   "name": "sift-homebuyer",
-  "version": "1.0.0",
-  "description": "## Development setup",
-  "main": "bundle.config.js",
+  "version": "1.0.1",
+  "description": "Homebuyer Sift",
   "scripts": {
     "start": "redsift run . >/dev/null 2>&1 || { echo '\nPlease install the Redsift SDK to run the Sift locally. See https://docs.redsift.io/docs/sdk-installation on how to do that.\n\n'; }",
     "build": "gulp",
@@ -29,7 +28,7 @@
     "@redsift/d3-rs-bars": "^0.2.0",
     "@redsift/d3-rs-theme": "^0.4.2",
     "@redsift/sift-sdk-web": "^0.6.1",
-    "@redsift/redsift-bundler": "^0.5.3",
+    "@redsift/redsift-bundler": "^0.5.5",
     "tingle.js": "^0.8.1"
   }
 }
